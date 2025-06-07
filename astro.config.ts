@@ -17,8 +17,8 @@ import { remarkReadingTime } from './src/plugins/remark-reading-time';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeUnwrapImages from 'rehype-unwrap-images';
 
-import rehypePrettyCode from 'rehype-pretty-code';
 import { transformerMetaHighlight, transformerNotationDiff } from '@shikijs/transformers';
+import rehypePrettyCode from 'rehype-pretty-code';
 
 // https://astro.build/config
 export default defineConfig({
